@@ -6,26 +6,26 @@ This repository contains machine learning models and datasets for predicting and
 ---
 
 ## Repository Structure
-├── Classification_Models/            # Notebooks for classification tasks
+├── Classification_Models/                    # Notebooks for classification tasks
 │   ├── Classification_RF.ipynb
 │   └── XGB_classification.ipynb
 │
-├── Curie_Temperature_Prediction_Models/    # Regression models for Curie temperature
+├── Curie_Temperature_Prediction_Models/      # Regression models for Curie temperature
 │   ├── ENN_balanced.ipynb
 │   ├── Random_forest_balanced.ipynb
 │   └── XGBoost_with_balanced_data.ipynb
 │
-├── Neel_Temperature_Prediction_Models/    # Regression models for Néel temperature
+├── Neel_Temperature_Prediction_Models/       # Regression models for Néel temperature
 │   ├── ENN_Neel_balanced_data.ipynb
 │   ├── RF_neel_balanced_data.ipynb
 │   └── XGB_Neel_balanced_data.ipynb
 │
-├── Dataset/                          # Input datasets
+├── Dataset/                                  # Input datasets
 │   ├── Classification_FM_AFM_NM.csv
 │   ├── FM_with_curie.csv
 │   └── AFM_with_Neel.csv
 │
-├── Feature_Engineering/              # Feature generation from compositions
+├── Feature_Engineering/                      # Feature generation from compositions
 │   ├── feature_generator_from_chemical_composition.ipynb
 │   └── Features_Generation_Code/
 │
